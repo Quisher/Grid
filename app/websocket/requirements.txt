@@ -1,3 +1,7 @@
+syft
+git+git://github.com/OpenMined/Grid@dev
+torch
+torchvision
 Click==7.0
 Flask==1.0.2
 eventlet==0.24.1
@@ -9,9 +13,4 @@ Flask-Sockets==0.2.1
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 gevent==1.4.0
-redis==3.2.1
 Werkzeug==0.15.2
-git+git://github.com/OpenMined/PySyft@dev
-git+git://github.com/OpenMined/Grid@dev
-torch
-torchvision
