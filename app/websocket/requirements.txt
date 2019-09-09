@@ -4,3 +4,14 @@ https://download.pytorch.org/whl/cpu/torch-1.0.1-cp36-cp36m-win_amd64.whl; sys_p
 torch; sys_platform == "darwin"
 torchvision
 git+git://github.com/OpenMined/Grid@dev
+Click==7.0
+eventlet==0.24.1
+gunicorn==19.9.0
+Flask-Cors==3.0.7
+Flask-SocketIO==3.3.2
+itsdangerous==1.1.0
+Flask-Sockets==0.2.1
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+gevent==1.4.0
+Werkzeug==0.15.2
