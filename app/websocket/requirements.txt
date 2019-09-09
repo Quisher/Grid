@@ -1,5 +1,5 @@
 syft
-git+git://github.com/OpenMined/Grid@dev
+#git+git://github.com/OpenMined/Grid@dev
 torch
 torchvision
 Click==7.0
