@@ -1,2 +1,2 @@
-#syft
+syft
 git+git://github.com/OpenMined/Grid@dev
