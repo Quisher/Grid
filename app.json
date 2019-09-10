@@ -5,5 +5,4 @@
   "keywords": ["pysyft", "grid", "python","torch"],
   "addons": ["heroku-postgresql:hobby-dev"],
   "repository": "https://github.com/Quisher/Grid/tree/dev"
-  }
 }
