@@ -3,5 +3,14 @@
   "description": "An OpenMined Grid node.",
   "keywords": ["pysyft", "grid", "python","torch"],
   "addons": ["heroku-postgresql:hobby-dev"],
-  "repository": "https://github.com/Quisher/Grid/tree/dev/app/websocket"
+  "repository": "https://github.com/Quisher/Grid/tree/dev",
+  "buildpacks": [{
+    "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+    }],
+  "env": {
+    "PROJECT_PATH": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "value": "app/websocket"
+    }
+  }
 }
