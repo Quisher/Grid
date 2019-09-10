@@ -1,0 +1,6 @@
+{
+  "name": "Websocket Grid Application",
+  "description": "An OpenMined Grid node.",
+  "keywords": ["pysyft", "grid", "python","torch"],
+  "addons": ["heroku-postgresql:hobby-dev"]
+}
