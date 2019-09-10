@@ -3,5 +3,5 @@
   "description": "An OpenMined Grid node.",
   "repository": "https://github.com/OpenMined/Grid",
   "keywords": ["pysyft", "grid", "python","torch"],
-  "addons": ["heroku-postgresql:hobby-dev"
+  "addons": ["heroku-postgresql:hobby-dev"]
 }
