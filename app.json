@@ -6,7 +6,7 @@
   "addons": ["heroku-postgresql:hobby-dev"],
   "buildpacks": [{
     "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
-    }]
+    }],
   "env": {
     "PROJECT_PATH": {
       "description": "A secret key for verifying the integrity of signed cookies.",
