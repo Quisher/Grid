@@ -1,5 +1,5 @@
 
-#Weboskcet Server Application
+*Weboskcet Server Application
 Functions:
 - Provides a restfull API
 - Websocket API
