@@ -106,6 +106,7 @@ def serve_model():
 @main.route("/", methods=["GET"])
 def index():
     """Index page."""
+    print("index route initiated")
     return render_template("index.html")
 
 

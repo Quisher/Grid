@@ -30,6 +30,8 @@ def set_database_config(app, test_config=None, verbose=False):
     """
     global db
     db_url = os.environ.get("DATABASE_URL")
+    #db_url = "postgres://postgres:postgres@localhost:5432/grid"
+    print("DB initated: {}".format(db_url))
     migrate = Migrate(app, db)
     if test_config is None:
         if db_url:
@@ -74,5 +76,6 @@ def create_app(debug=False, tst_config=None):
     s = app.app_context().push()
     db.create_all()
     socketio.init_app(app)
+    print("App created")
 
     return app
