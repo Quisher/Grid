@@ -9,7 +9,6 @@
     }],
   "env": {
     "PROJECT_PATH": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
       "value": "app/websocket"
     }
   }
